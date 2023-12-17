@@ -86,7 +86,7 @@ const App = () => {
 const products = [
     { id: 1, name: 'Product 1', price: 10, image: 'url-to-image-1.jpg', description: 'Detailed description for Product 1.', category: 'Category 1'  },
     { id: 2, name: 'Product 2', price: 15, image: 'url-to-image-2.jpg', description: 'Detailed description for Product 2.', category: 'Category 2'  },
-    { id: 3, name: 'Buty wspinaczkowe Northwind', price: 20, image: 'url-to-image-3.jpg', description: 'Detailed description for Product 3.', category: 'Category 3'  }
+    { id: 3, name: 'Buty wspinaczkowe Northwind', price: 25, image: 'url-to-image-3.jpg', description: 'Detailed description for Product 3.', category: 'Category 3'  }
     // Add more products as needed
 ];
 
