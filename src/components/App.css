@@ -13,10 +13,24 @@
 }
 
 .product {
-    border: 1px solid #ccc;
-    margin: 10px;
+    width: 200px; /* Set the desired fixed width */
+    border: 1px solid #ddd;
     padding: 10px;
+    margin: 10px;
     text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 16px; /* Set the desired font size for the product name */
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 img {
