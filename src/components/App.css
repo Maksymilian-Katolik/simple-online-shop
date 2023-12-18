@@ -48,3 +48,19 @@ header {
     padding: 15px;
     color: white;
 }
+
+.filter-by-name input {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.filter-by-category select {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    font-size: 2rem;
+    text-align: center;
+}

@@ -26,7 +26,7 @@ const ProductList = ({ products, addToCart }) => {
   return (
     <div>
       <h2>Products</h2>
-      <div>
+      <div className="filter-by-category">
         <label>Filter by Category:</label>
         <select onChange={(e) => filterProductsByCategory(e.target.value)}>
           <option value="">All Categories</option>
@@ -37,7 +37,7 @@ const ProductList = ({ products, addToCart }) => {
           ))}
         </select>
       </div>
-      <div>
+      <div className="filter-by-name">
         <label>Search by Name:</label>
         <input type="text" value={searchTerm} onChange={handleSearch} />
       </div>

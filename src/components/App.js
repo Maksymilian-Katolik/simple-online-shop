@@ -77,9 +77,7 @@ const App = () => {
               element={
                 <ProductList products={products} addToCart={addToCart} />
               }
-            >
-              {" "}
-            </Route>
+            ></Route>
             <Route
               path="/payment-options"
               element={
@@ -93,9 +91,7 @@ const App = () => {
             <Route
               path="/product/:productId"
               element={<ProductDetails addToCart={addToCart} />}
-            >
-              {" "}
-            </Route>
+            ></Route>
           </Routes>
           <ShoppingCart
             cart={cart}

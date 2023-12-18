@@ -11,7 +11,8 @@ const ProductDetails = ({ addToCart }) => {
   }
 
   return (
-    <div>
+    <div className="product-info">
+      <img src={product.image} />
       <h2>{product.name}</h2>
       <p>${product.price}</p>
       <p>{product.description}</p>
