@@ -6,7 +6,7 @@ import PaymentOptions from "./PaymentOptions";
 
 import "./App.css";
 import ProductDetails from "./ProductDetails";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, matchPath } from "react-router-dom";
 
 import products from "./products.json";
 
@@ -65,6 +65,12 @@ const App = () => {
     // You can implement more detailed payment logic here
   };
 
+  var proceedToPaymentAvailable = true;
+
+  const changeProceedVisibility = (new_state) => {
+    proceedToPaymentAvailable = new_state;
+  };
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -98,6 +104,7 @@ const App = () => {
             total={calculateTotal()}
             increaseQuantity={increaseQuantity}
             decreaseQuantity={decreaseQuantity}
+            showProceed={calculateTotal() != 0}
           />
         </div>
       </div>

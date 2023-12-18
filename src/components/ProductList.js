@@ -24,7 +24,7 @@ const ProductList = ({ products, addToCart }) => {
   );
 
   return (
-    <div>
+    <div className="whole-product-list">
       <h2>Products</h2>
       <div className="filter-by-category">
         <label>Filter by Category:</label>

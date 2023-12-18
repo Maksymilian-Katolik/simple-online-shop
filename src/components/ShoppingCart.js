@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ShoppingCart = ({ cart, total, increaseQuantity, decreaseQuantity }) => {
+const ShoppingCart = ({
+  cart,
+  total,
+  increaseQuantity,
+  decreaseQuantity,
+  showProceed,
+}) => {
   return (
     <div>
       <h2>Shopping Cart</h2>
@@ -15,9 +21,11 @@ const ShoppingCart = ({ cart, total, increaseQuantity, decreaseQuantity }) => {
         ))}
       </ul>
       <p>Total: ${total.toFixed(2)}</p>
-      <Link to="/payment-options">
-        <button>Proceed to payment</button>
-      </Link>
+      {showProceed ? (
+        <Link to="/payment-options">
+          <button>Proceed to payment</button>
+        </Link>
+      ) : null}
     </div>
   );
 };
