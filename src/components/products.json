@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Buty wspinaczkowe Library",
+    "price": 10,
+    "image": "/buty1.png",
+    "description": "Buty wspinaczkowe Library",
+    "category": "Category 1"
+  },
+  {
+    "id": 2,
+    "name": "Buty wspinaczkowe Northwind",
+    "price": 15,
+    "image": "/buty2.png",
+    "description": "Buty wspinaczkowe Northwind ALALALA",
+    "category": "Category 2"
+  },
+  {
+    "id": 3,
+    "name": "Buty wspinaczkowe Loanhist",
+    "price": 27,
+    "image": "/buty3.png",
+    "description": "Detailed description for Product 3.",
+    "category": "Category 3"
+  }
+]
