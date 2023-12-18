@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import products from "./products.json";
 
 const ProductDetails = ({ addToCart }) => {
@@ -16,6 +16,9 @@ const ProductDetails = ({ addToCart }) => {
       <p>${product.price}</p>
       <p>{product.description}</p>
       <button onClick={() => addToCart(product)}>Add to Cart</button>
+      <Link to="/">
+        <button>Go back</button>
+      </Link>
     </div>
   );
 };
