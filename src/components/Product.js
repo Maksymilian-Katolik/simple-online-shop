@@ -7,10 +7,10 @@ const Product = ({ product, addToCart }) => {
 
   return (
     <div className="product">
-      <Link to={`/product/${product.id}`}>
+      <Link to={`/product/${product.id}`} style={{ textDecoration: "none" }}>
         <img src={product.image} alt={product.name} />
         <h3 title={product.name}>{truncatedName}</h3>
-        <p>${product.price}</p>
+        <p>${product.price.toFixed(2)}</p>
       </Link>
       <button onClick={() => addToCart(product)}>Add to Cart</button>
     </div>
