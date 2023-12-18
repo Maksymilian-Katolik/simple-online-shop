@@ -26,20 +26,27 @@ const ProductList = ({ products, addToCart }) => {
   return (
     <div className="whole-product-list">
       <h2>Products</h2>
-      <div className="filter-by-category">
-        <label>Filter by Category:</label>
-        <select onChange={(e) => filterProductsByCategory(e.target.value)}>
-          <option value="">All Categories</option>
-          {uniqueCategories.map((category) => (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          ))}
-        </select>
-      </div>
-      <div className="filter-by-name">
-        <label>Search by Name:</label>
-        <input type="text" value={searchTerm} onChange={handleSearch} />
+      <div className="filter-settings">
+        <div className="filter-by-category">
+          {/* <label>Filter by Category:</label> */}
+          <select onChange={(e) => filterProductsByCategory(e.target.value)}>
+            <option value="">All Categories</option>
+            {uniqueCategories.map((category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="filter-by-name">
+          {/* <label>Search by Name:</label> */}
+          <input
+            type="text"
+            value={searchTerm}
+            placeholder="Search by name"
+            onChange={handleSearch}
+          />
+        </div>
       </div>
       <div className="product-list">
         {filteredProducts.map((product) => (

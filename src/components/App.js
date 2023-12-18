@@ -104,7 +104,7 @@ const App = () => {
             total={calculateTotal()}
             increaseQuantity={increaseQuantity}
             decreaseQuantity={decreaseQuantity}
-            showProceed={calculateTotal() != 0}
+            className="shopping-cart"
           />
         </div>
       </div>
