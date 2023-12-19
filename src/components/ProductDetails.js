@@ -14,7 +14,7 @@ const ProductDetails = ({ addToCart }) => {
     <div className="product-details">
       <img src={product.image} />
       <h2>{product.name}</h2>
-      <p>${product.price}</p>
+      <p>${product.price.toFixed(2)}</p>
       <p>{product.description}</p>
       <button onClick={() => addToCart(product)}>Add to Cart</button>
       <Link to="/">

@@ -80,8 +80,12 @@ header {
     align-items: baseline;
 }
 
+.header-wrap h1 {
+    font-size: 2rem;
+}
+
 .header-wrap img {
-    height: 80%;
+    height: 2.5rem;
     margin: 0 1rem;
 }
 
@@ -133,6 +137,8 @@ header {
 
 .product-list {
     height: 50vh;
+    /* height: 62%; */
+    max-height: 100%;
     border: 2px solid white;
 }
 
@@ -305,5 +311,9 @@ header {
 
 .product-details p {
     line-height: 2rem;
+}
+
+.product-details img {
+    border: 1px solid #F7EBEC;
 }
 
