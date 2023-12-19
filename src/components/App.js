@@ -60,9 +60,8 @@ const App = () => {
   };
 
   const handlePayment = (option) => {
-    // Handle the payment logic based on the selected option
     console.log(`Processing payment: ${option}`);
-    // You can implement more detailed payment logic here
+    // More detailed payment logic
   };
 
   var proceedToPaymentAvailable = true;

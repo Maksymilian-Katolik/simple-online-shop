@@ -10,7 +10,6 @@ const ShoppingCart = ({
 }) => {
   const location = useLocation();
 
-  // Check if the current route is the payment options route
   const isPaymentOptionsRoute = location.pathname === "/payment-options";
 
   const alterName = (itemName, maxSize) => {
