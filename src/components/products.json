@@ -86,5 +86,13 @@
     "image": "/treasure.png",
     "description": "Something special for you, folks! ;P",
     "category": "Miscellaneous"
+  },
+  {
+    "id": 12,
+    "name": "Tresure chest",
+    "price": 10000.5,
+    "image": "/treasure-chest.png",
+    "description": "Something special for you, folks! ;P",
+    "category": "Miscellaneous"
   }
 ]
