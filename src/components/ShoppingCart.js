@@ -19,7 +19,7 @@ const ShoppingCart = ({
       : itemName;
   };
 
-  const maxNameSize = 25;
+  const maxNameSize = 35;
 
   return (
     <div className="shopping-cart">
@@ -27,8 +27,8 @@ const ShoppingCart = ({
       <ul>
         {cart.map((item) => (
           <li key={item.id}>
-            {alterName(item.name, maxNameSize)} - ${item.price} x{" "}
-            {item.quantity}
+            {alterName(item.name, maxNameSize)}
+            <br /> - ${item.price} x {item.quantity}
             <div class="plus-minus">
               <button onClick={() => increaseQuantity(item.id)}>+</button>
               <button onClick={() => decreaseQuantity(item.id)}>-</button>

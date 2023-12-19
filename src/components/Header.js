@@ -3,7 +3,7 @@ import React from "react";
 const Header = ({ cartCount }) => {
   return (
     <header>
-      <h1>[ENTER SHOP NAME]</h1>
+      <h1>RANDOM ITEM MARKET</h1>
       <p>Items in Cart: {cartCount}</p>
     </header>
   );
