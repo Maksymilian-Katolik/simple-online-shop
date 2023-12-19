@@ -78,5 +78,13 @@
     "image": "/liny2.png",
     "description": "Alabama Rope Set - high-quality set of speleological ropes created for demanding explorers. Excellent operational properties and durability. Length of each rope: 40 m. Rope diameter: 10 mm.",
     "category": "Ropes"
+  },
+  {
+    "id": 11,
+    "name": "Tresure bag",
+    "price": 2000,
+    "image": "/treasure.png",
+    "description": "Something special for you ;P",
+    "category": "Miscellaneous"
   }
 ]

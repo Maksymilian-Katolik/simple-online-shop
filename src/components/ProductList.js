@@ -45,7 +45,7 @@ const ProductList = ({ products, addToCart }) => {
     <div className="whole-product-list">
       <h2>Products</h2>
       <div className="show-settings">
-        <p>Show: </p>
+        <p>Show columns in a row: </p>
         <select onChange={(e) => setProductsInARow(parseInt(e.target.value))}>
           {showProdOptions.map((el) => (
             <option
@@ -57,6 +57,7 @@ const ProductList = ({ products, addToCart }) => {
             </option>
           ))}
         </select>
+        {/* <p>columns per row</p> */}
       </div>
       <div className="filter-settings">
         <div className="filter-by-category">
