@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Library Climbing Shoes",
-    "price": 10,
+    "price": 89.99,
     "image": "/buty1.png",
     "description": "Library Climbing Shoes - the perfect solution for spelunkers. Made from high-quality materials, they provide excellent grip and comfort during climbing. Suitable for both beginners and advanced cave explorers. Upper Material: Synthetic leather, Sole: Rubber, Closure System: Lacing, Weight: 500 g. Available sizes: 39, 40, 41, 42, 43, 44.",
     "category": "Shoes"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Northwind Climbing Shoes",
-    "price": 15,
+    "price": 109.99,
     "image": "/buty2.png",
     "description": "Northwind Climbing Shoes - innovative spelunking shoes providing excellent grip on any surface. Comfortable and lightweight, perfect for challenging underground conditions. Upper Material: Mesh and synthetic leather, Sole: Vibram, Closure System: Stretchable elastic bands, Weight: 450 g. Available sizes: 38, 39, 40, 41, 42.",
     "category": "Shoes"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Loanhist Climbing Shoes",
-    "price": 27,
+    "price": 129.99,
     "image": "/buty3.png",
     "description": "Loanhist Climbing Shoes - excellent shoes for spelunkers seeking durable footwear. Resilient to cave conditions, providing maximum protection and comfort during exploration. Upper Material: Natural leather, Sole: Vibram Mega-Grip, Closure System: Strong velcro closure, Weight: 550 g. Available sizes: 40, 41, 42, 43, 44, 45.",
     "category": "Shoes"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Juvenile Climbing Shoes",
-    "price": 28,
+    "price": 149.99,
     "image": "/buty4.png",
     "description": "Juvenile Climbing Shoes - ensuring maximum comfort and safety for young cave explorers. Sturdy construction and attractive design for the youngest spelunking enthusiasts. Upper Material: Synthetic textile material, Sole: Rubber, Closure System: Elastic laces, Weight: 400 g. Available sizes: 28, 29, 30, 31, 32, 33.",
     "category": "Shoes"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Northwind REGULAR Speleological Helmet",
-    "price": 27,
+    "price": 59.99,
     "image": "/kask1.png",
     "description": "Northwind REGULAR Speleological Helmet - solid protection for every spelunker. Durable construction and adjustable strap system ensure safety in challenging underground conditions. Material: Polycarbonate, Size Adjustment: Rear adjustment system, Padding: Soft foam, Weight: 550 g. Available size: Universal.",
     "category": "Helmets"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Northwind LIMITED Speleological Helmet",
-    "price": 27,
+    "price": 79.99,
     "image": "/kask2.png",
     "description": "Northwind LIMITED Speleological Helmet - exclusive protection for demanding spelunkers. Limited edition with additional features, providing maximum comfort and safety. Material: Fiberglass, Size Adjustment: Rear adjustment system, Padding: Comfortable foam padding, Weight: 500 g. Available size: Universal.",
     "category": "Helmets"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Library Speleological Helmet",
-    "price": 27,
+    "price": 99.5,
     "image": "/kask3.png",
     "description": "Library Speleological Helmet - classic protection for cave enthusiasts. Solid construction and adjustable strap ensure safety during exploration of underground labyrinths. Material: Polypropylene, Size Adjustment: Adjustable strap, Padding: Soft inlay, Weight: 480 g. Available size: Universal.",
     "category": "Helmets"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Professional Harness by DBManage",
-    "price": 27,
+    "price": 216.0,
     "image": "/uprzaz1.png",
     "description": "Professional Harness by DBManage - robust speleological harness ensuring maximum safety during cave exploration. Sturdy construction and adjustable fastening system for a perfect fit. Weight: 700 g. Available sizes: S, M, L.",
     "category": "Harnesses"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Idaho Rope Set",
-    "price": 27,
+    "price": 129.9,
     "image": "/liny1.png",
     "description": "Idaho Rope Set - complete set of speleological ropes ideal for various applications. Durable and sturdy ropes for safe movement in challenging underground conditions. Length of each rope: 30 m. Rope diameter: 9 mm.",
     "category": "Ropes"
@@ -74,9 +74,17 @@
   {
     "id": 10,
     "name": "Alabama Rope Set",
-    "price": 27,
+    "price": 179.95,
     "image": "/liny2.png",
     "description": "Alabama Rope Set - high-quality set of speleological ropes created for demanding explorers. Excellent operational properties and durability. Length of each rope: 40 m. Rope diameter: 10 mm.",
     "category": "Ropes"
+  },
+  {
+    "id": 11,
+    "name": "Tresure bag",
+    "price": 2000,
+    "image": "/treasure.png",
+    "description": "Something special for you ;P",
+    "category": "Miscellaneous"
   }
 ]

@@ -23,9 +23,42 @@ const ProductList = ({ products, addToCart }) => {
         product.name.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
+  // var productsInARow = 3;
+
+  // const setProductsInARow = (val) => {
+  //   productsInARow = val;
+  //   // alert(val);
+  // };
+
+  const [productsInARow, setProductsInARow] = useState(3);
+
+  const maxProductsInARow = 4;
+  const arrayRange = (start, stop, step) =>
+    Array.from(
+      { length: (stop - start) / step + 1 },
+      (value, index) => start + index * step
+    );
+  const showProdOptions = arrayRange(1, maxProductsInARow, 1);
+  const showDefault = 3;
+
   return (
     <div className="whole-product-list">
       <h2>Products</h2>
+      <div className="show-settings">
+        <p>Show columns in a row: </p>
+        <select onChange={(e) => setProductsInARow(parseInt(e.target.value))}>
+          {showProdOptions.map((el) => (
+            <option
+              key={el}
+              value={el}
+              selected={el == showDefault ? "selected" : ""}
+            >
+              {el}
+            </option>
+          ))}
+        </select>
+        {/* <p>columns per row</p> */}
+      </div>
       <div className="filter-settings">
         <div className="filter-by-category">
           {/* <label>Filter by Category:</label> */}
@@ -43,14 +76,19 @@ const ProductList = ({ products, addToCart }) => {
           <input
             type="text"
             value={searchTerm}
-            placeholder="Search by name"
+            placeholder="Search"
             onChange={handleSearch}
           />
         </div>
       </div>
       <div className="product-list">
         {filteredProducts.map((product) => (
-          <Product key={product.id} product={product} addToCart={addToCart} />
+          <Product
+            key={product.id}
+            product={product}
+            addToCart={addToCart}
+            prodInRow={productsInARow}
+          />
         ))}
       </div>
     </div>
