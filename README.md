@@ -1,3 +1,6 @@
+# Prosty sklep internetowy
+Jest to projekt końcowy z przedmiotu "Wprowadzenie do Aplikacji Internetowych" na III semestrze studiów (Akademia Górniczo-Hutnicza w Krakowie, kierunek: Informatyka).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
